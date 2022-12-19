@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather-Dashboard-App</title>
+    <link rel="styleshhet" href="style.css"/>
+  </head>
+
+  <body>
+
+    <header>
+        <h1>Week6-Weather-Dahseboard-Challenge</h1>
+    </header>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <form id="search-cities">
+                <h2>Search for a city:</h2>
+                <input type="text" id="city">
+                <button id="city-search">Search</button>
+            </form>
+            <h2 class="search">Search History</h2>
+            <button id="clear-history">Clear</button>
+            <div class="col" id="search-history">
+                <div class="container" id="container"></div>
+            </div>
+        </div>
+
+        <div class="col-5m-9" id="weather-data">
+            <div class="card weather" id="weather-card">
+                <div class="card-body">
+                    <h2 class="card-title"></h2>
+                    <p class="card-text" id="temp"></p>
+                    <p class="card-text" id="humid"></p>
+                    <p class="card-text" id="wind"></p>
+                    <p class="card-text"><span id="uvi"></span></p>
+                </div>
+            </div>
+            <h2 id="future-header"></h2>
+            <div class="row" id="future-cast">
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+  </body>
+</html>
