@@ -15,13 +15,11 @@ button {
 }
 
 .row {
-    margin-left: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .search {
     margin-top: 50px;
-}
-
-.weather {
-    display: none;
 }
