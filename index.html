@@ -11,7 +11,7 @@
   <body>
 
     <header>
-        <h1>Week6-Weather-Dahseboard-Challenge</h1>
+        <h1>Week6-Weather-Dashboard-Challenge</h1>
     </header>
 
     <div class="row">
@@ -31,7 +31,7 @@
         <div class="col-5m-9" id="weather-data">
             <div class="card weather" id="weather-card">
                 <div class="card-body">
-                    <h2 class="card-title"></h2>
+                    <h2 class="card-title" id="city-name"></h2>
                     <p class="card-text" id="temp"></p>
                     <p class="card-text" id="humid"></p>
                     <p class="card-text" id="wind"></p>
@@ -40,10 +40,46 @@
             </div>
             <h2 id="future-header"></h2>
             <div class="row" id="future-cast">
+                <div class="card-body">
+                    <h2 class="card-title">Day 1</h2>
+                    <p class="card-text" id="temp1"></p>
+                    <p class="card-text" id="humid1"></p>
+                    <p class="card-text" id="wind1"></p>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Day 2</h2>
+                    <p class="card-text" id="temp2"></p>
+                    <p class="card-text" id="humid2"></p>
+                    <p class="card-text" id="wind2"></p>
+                
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Day 3</h2>
+                    <p class="card-text" id="temp3"></p>
+                    <p class="card-text" id="humid3"></p>
+                    <p class="card-text" id="wind3"></p>
+                
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Day 4</h2>
+                    <p class="card-text" id="temp4"></p>
+                    <p class="card-text" id="humid4"></p>
+                    <p class="card-text" id="wind4"></p>
+                
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Day 5</h2>
+                    <p class="card-text" id="temp5"></p>
+                    <p class="card-text" id="humid5"></p>
+                    <p class="card-text" id="wind5"></p>
+                
+                </div>
             </div>
         </div>
     </div>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 
   </body>
