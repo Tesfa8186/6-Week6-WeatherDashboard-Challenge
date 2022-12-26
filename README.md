@@ -2,7 +2,7 @@
 # Week6-Weather-Dashboard-Challenge
 
 # Describition 
-To see the weather outlook for multiple cities for trip plan and other event.
+This app helps the user to see the weather outlook for multiple cities for trip plan and other event.
 This shows current weather for the searched city, also it shows the next 5 days forcast.
 This app will help the user to check temprature, wind-speed and humidity for selected city.
 

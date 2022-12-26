@@ -7,6 +7,11 @@ accessCityForm.addEventListener("submit", function (event){
     getWeather(city)
     getForecast(city)
 })
+var buttonId = document.getElementById("clear-history");
+buttonId.addEventListener("click",function(){
+    var ul = document.getElementById("city-list");
+    ul.innerHTML = "";
+}) 
 
 function getWeather(city) {
     var apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=imperial`
@@ -15,6 +20,8 @@ function getWeather(city) {
     .then(response => response.json())
     .then(currentWeatherData => {
         console.log(currentWeatherData)
+        var li = $("<li>").text(city)
+        $("#city-list").append(li)
 
         var cardTitleEl = $("#city-name");
         var cardTempEl = $("#temp");
@@ -84,5 +91,3 @@ function getForecast(city) {
 
     })
 }
-
-//         var cardUviEl = $("#uvi");

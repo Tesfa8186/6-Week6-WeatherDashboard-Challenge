@@ -1,17 +1,17 @@
 
 body {
     font-family:Arial, Helvetica, sans-serif, cursive;
-    background-color: rgb(126, 126, 220);
+    background-color: rgb(164, 164, 201);
 }
 
 header {
-    background-color: rgb(149, 170, 232);
+    background-color: rgb(42, 90, 234);
     text-align: center;
-    color: rgb(233, 224, 192);
+    color:  rgb(236, 234, 228);
 }
 
 button {
-    background-color: rgb(172, 59, 110);
+    background-color: rgb(152, 67, 105);
 }
 
 .row {
@@ -22,4 +22,12 @@ button {
 
 .search {
     margin-top: 50px;
+}
+.card-body {
+    border: solid;
+    background-color: rgb(87, 87, 169);
+    justify-items:center;
+    display: block;
+    margin: 20px;
+    border-radius: 10px;
 }
